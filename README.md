@@ -30,7 +30,7 @@ Pilih versi yang ingin diunduh secara langsung (**hanya file aplikasi**, tanpa p
 
 | Versi | Status | Tanggal Rilis | Catatan Pembaruan (Changelog) | Unduh Langsung |
 | :---: | :---: | :---: | :--- | :---: |
-| **`v1.0.0`** | ![Latest](https://img.shields.io/badge/Terbaru-10B981?style=flat-square) | 22 Nov 2026 | **Rilis Perdana:** 12 menu perbaikan & optimasi gaming + fitur auto-updater & cek changelog (`[13]`). | [⬇ **EXE**](https://github.com/USERNAME_ANDA/windows-fix-toolkit/releases/download/v1.0.0/windows-fix-toolkit.exe) • [📄 **BAT**](https://github.com/USERNAME_ANDA/windows-fix-toolkit/releases/download/v1.0.0/windows-fix-toolkit.bat) |
+| **`v1.0.0`** | ![Latest](https://img.shields.io/badge/Terbaru-10B981?style=flat-square) | 22 Nov 2026 | **Rilis Perdana:** 12 menu perbaikan & optimasi gaming + fitur auto-updater & cek changelog (`[13]`). | [⬇ **EXE**](https://github.com/ZidanAlfarizaPutraPratama/windows-fix-toolkit/releases/download/v1.0.0/windows-fix-toolkit.exe) • [📄 **BAT**](https://github.com/ZidanAlfarizaPutraPratama/windows-fix-toolkit/releases/download/v1.0.0/windows-fix-toolkit.bat) |
 
 > **Tips:** Klik **⬇ EXE** untuk aplikasi berikon kustom, atau **📄 BAT** jika ingin melihat dan menjalankan kode skrip mentahnya secara langsung.
 
