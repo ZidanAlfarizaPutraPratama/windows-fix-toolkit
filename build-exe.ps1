@@ -29,8 +29,9 @@ if (Test-Path -LiteralPath $exePath) {
 }
 
 $batContent = Get-Content -Path $batPath -Raw -Encoding UTF8
-$verMatch   = [regex]::Match($batContent, 'APP_VERSION="?([0-9]+\.[0-9]+\.[0-9]+)"?')
-$appVer     = if ($verMatch.Success) { $verMatch.Groups[1].Value } else { "1.0.0" }
+$verMatch   = [regex]::Match($batContent, 'APP_VERSION="?([0-9]+\.[0-9]+\.[0-9]+(?:\.[0-9]+)?)"?')
+$appVer     = if ($verMatch.Success) { $verMatch.Groups[1].Value } else { "1.0.0.1" }
+$asmVer     = if ($appVer.Split('.').Count -eq 4) { $appVer } else { "$appVer.0" }
 $batBase64  = [Convert]::ToBase64String([System.Text.Encoding]::UTF8.GetBytes($batContent))
 $tempCs     = Join-Path $env:TEMP ("WinFixBuild_" + [Guid]::NewGuid().ToString("N") + ".cs")
 
@@ -44,8 +45,8 @@ using System.Reflection;
 [assembly: AssemblyDescription("Windows Repair, Maintenance & Performance Toolkit")]
 [assembly: AssemblyProduct("windows-fix-toolkit")]
 [assembly: AssemblyCopyright("Copyright (c) 2026 Zidan Alfariza Putra Pratama")]
-[assembly: AssemblyVersion("$appVer.0")]
-[assembly: AssemblyFileVersion("$appVer.0")]
+[assembly: AssemblyVersion("$asmVer")]
+[assembly: AssemblyFileVersion("$asmVer")]
 
 class Program {
     static void Main() {
