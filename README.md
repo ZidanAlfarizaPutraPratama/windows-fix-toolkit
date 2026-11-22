@@ -30,7 +30,8 @@ Pilih versi yang ingin diunduh secara langsung (**hanya file aplikasi**, tanpa p
 
 | Versi | Status | Tanggal Rilis | Catatan Pembaruan (Changelog) | Unduh Langsung |
 | :---: | :---: | :---: | :--- | :---: |
-| **`v1.0.0`** | ![Latest](https://img.shields.io/badge/Terbaru-10B981?style=flat-square) | 22 Nov 2026 | **Rilis Perdana:** 12 menu perbaikan & optimasi gaming + fitur auto-updater & cek changelog (`[13]`). | [⬇ **EXE**](https://github.com/ZidanAlfarizaPutraPratama/windows-fix-toolkit/releases/download/v1.0.0/windows-fix-toolkit.exe) • [📄 **BAT**](https://github.com/ZidanAlfarizaPutraPratama/windows-fix-toolkit/releases/download/v1.0.0/windows-fix-toolkit.bat) |
+| **`v1.0.0.1`** | ![Latest](https://img.shields.io/badge/Terbaru-10B981?style=flat-square) | 22 Nov 2026 | **Perbaikan Stabilitas, Pembersih RAM & Build:** Perbaikan sintaks menu `[4]`, `[5]`, `[8]`, kelengkapan menu `[9]`–`[13]`, tambahan menu `[14]` bersihkan RAM usage, dan backup otomatis `.exe` lama di `build-exe.ps1`. | [⬇ **EXE**](https://github.com/ZidanAlfarizaPutraPratama/windows-fix-toolkit/releases/download/v1.0.0.1/windows-fix-toolkit.exe) • [📄 **BAT**](https://github.com/ZidanAlfarizaPutraPratama/windows-fix-toolkit/releases/download/v1.0.0.1/windows-fix-toolkit.bat) |
+| **`v1.0.0`** | ![Archive](https://img.shields.io/badge/Arsip-6B7280?style=flat-square) | 22 Nov 2026 | **Rilis Perdana:** 12 menu perbaikan & optimasi gaming + fitur auto-updater & cek changelog (`[13]`). | [⬇ **EXE**](https://github.com/ZidanAlfarizaPutraPratama/windows-fix-toolkit/releases/download/v1.0.0/windows-fix-toolkit.exe) • [📄 **BAT**](https://github.com/ZidanAlfarizaPutraPratama/windows-fix-toolkit/releases/download/v1.0.0/windows-fix-toolkit.bat) |
 
 > **Tips:** Klik **⬇ EXE** untuk aplikasi berikon kustom, atau **📄 BAT** jika ingin melihat dan menjalankan kode skrip mentahnya secara langsung.
 
@@ -59,6 +60,7 @@ Pilih versi yang ingin diunduh secara langsung (**hanya file aplikasi**, tanpa p
 | **`[10]`** | **Optimasi Performa Windows** | Menyesuaikan `SystemResponsiveness`, menghapus *network throttling*, mematikan *Game DVR*, membatasi unggahan P2P *Delivery Optimization*, dan mengurangi aplikasi latar belakang. |
 | **`[11]`** | **Bersihkan Cache Shader GPU** | Menghapus sisa *shader cache* lama milik **DirectX** (`D3DSCache`), **NVIDIA**, **AMD**, dan **Intel** secara aman tanpa mengganggu file yang dikunci driver aktif. |
 | **`[12]`** | **Power Plan Ultimate Performance** | Membuka kunci dan mengaktifkan skema daya *Ultimate Performance* (otomatis beralih ke *High Performance* jika dibatasi *firmware* laptop). |
+| **`[14]`** | **Bersihkan RAM Usage** | Merapikan *working set* proses non-kritis (`EmptyWorkingSet`) dan *garbage collection*, lalu menampilkan perbandingan *Free RAM* sebelum dan sesudah dibersihkan. |
 
 ### 🔄 Pembaruan Aplikasi
 
@@ -72,14 +74,14 @@ Pilih versi yang ingin diunduh secara langsung (**hanya file aplikasi**, tanpa p
 
 1. Pilih versi pada tabel [Log Versi dan Download](#log-versi-dan-download), lalu klik **⬇ EXE**.
 2. Klik dua kali file **`windows-fix-toolkit.exe`** yang sudah terunduh.
-3. Pilih **Yes** ketika jendela *User Account Control* (UAC) muncul untuk memberikan izin Administrator.
-4. Masukkan angka menu (`1`–`13`) sesuai kebutuhan, lalu tekan **Enter**.
+3. Pilih **Yes** ketika jendela *User Account Control* (UAC) muncul untuk memberikan izin Administrator — **run saja ini aman kok 100%** (izin Administrator diperlukan agar fitur perbaikan sistem seperti SFC, DISM, layanan Windows Update, dan manajemen daya bisa berjalan).
+4. Masukkan angka menu (`1`–`14`) sesuai kebutuhan, lalu tekan **Enter**.
 
 ---
 
 ## Penafian (Disclaimer)
 
-Menu pada bagian **Optimasi Performa & Gaming** memodifikasi nilai *Windows Registry* dan skema manajemen daya. Sangat disarankan untuk membuat **System Restore Point** terlebih dahulu sebelum menerapkan perubahan sistem. Penggunaan aplikasi ini sepenuhnya berada di bawah tanggung jawab pengguna.
+Menu pada bagian **Optimasi Performa & Gaming** memodifikasi nilai *Windows Registry*, manajemen daya, atau *working set* memori proses. Sangat disarankan untuk membuat **System Restore Point** terlebih dahulu sebelum menerapkan perubahan sistem. Penggunaan aplikasi ini sepenuhnya berada di bawah tanggung jawab pengguna.
 
 ---
 
