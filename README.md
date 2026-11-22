@@ -4,8 +4,8 @@
 
   <br /><br />
 
-  [![Release](https://img.shields.io/github/v/release/USERNAME_ANDA/windows-fix-toolkit?style=for-the-badge&color=F59E0B&label=Versi%20Terbaru)](https://github.com/USERNAME_ANDA/windows-fix-toolkit/releases/latest)
-  [![Downloads](https://img.shields.io/github/downloads/USERNAME_ANDA/windows-fix-toolkit/total?style=for-the-badge&color=10B981&label=Total%20Unduhan)](https://github.com/USERNAME_ANDA/windows-fix-toolkit/releases)
+  [![Release](https://img.shields.io/github/v/release/ZidanAlfarizaPutraPratama/windows-fix-toolkit?style=for-the-badge&color=F59E0B&label=Versi%20Terbaru)](https://github.com/ZidanAlfarizaPutraPratama/windows-fix-toolkit/releases/latest)
+  [![Downloads](https://img.shields.io/github/downloads/ZidanAlfarizaPutraPratama/windows-fix-toolkit/total?style=for-the-badge&color=10B981&label=Total%20Unduhan)](https://github.com/ZidanAlfarizaPutraPratama/windows-fix-toolkit/releases)
   [![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://www.microsoft.com/windows)
   [![License](https://img.shields.io/badge/License-MIT-6366F1?style=for-the-badge)](LICENSE)
 
