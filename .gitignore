@@ -5,3 +5,5 @@ Desktop.ini
 *.bak
 *.tmp
 *.bin
+*.old
+backup/
